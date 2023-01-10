@@ -1,0 +1,16 @@
+3. Deploy a static website using the same repo and add screen shot.
+
+
+Answer3 :-
+
+Go to the repository in github and under settings click on ‘pages’ .
+Then choose ‘deploy from a branch’ and choose ‘master ‘ branch and hit save . your static website will be deployed.
+(images of the deployed website are there separately in assignment1 labelled as 'screenshot_for_ques_3').
+
+4. Difference between static and dynamic website.
+
+
+
+
+
+5. Steps you followed to connect github repo to your local repo.
