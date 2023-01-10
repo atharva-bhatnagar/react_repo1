@@ -1,0 +1,36 @@
+1. How we can use ssh in github and also write command to generate ssh keys in your respestive operating system.
+
+answer1:
+
+
+to generate ssh keys we use :- ssh-keygen command in windows powershell.
+
+then go to settings of your github profile and under 'SSH and GPG keys ' section click on new SSH and paste the contents of .pub file created after running the ssh-keygen file.
+
+after that follow these steps->
+ 
+step1 --->first we have to create a repository
+step2--->then go to the code section >click on ssh and copy the link
+step3---> use the link (git remote add origin "link") to add origin and then create push the changes to github repo after commiting. 
+
+
+
+
+
+2. Write all commands from initialising to pushing your repo to github.
+
+
+answer2:
+
+create a repo o on the github and a folder as local repository. inside the folder shift+right click and open windows powershell. then run following commands:
+
+1.   git init
+2.   git add .
+3.   git commit -m "message"
+4.   git remote add origin "ssh or http link of your github repo like git@github.com:atharva-bhatnagar/react_repo1.git"
+5.   git push
+6.   git push --set-upstream origin master
+
+
+
+create a folder named assignment1 and write your answer in txt file and push your answer to github repo.
