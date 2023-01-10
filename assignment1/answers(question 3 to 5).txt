@@ -9,8 +9,31 @@ Then choose ‘deploy from a branch’ and choose ‘master ‘ branch and hit s
 
 4. Difference between static and dynamic website.
 
+answer4:-
 
-
-
+ A static website has fixed content which is predermined of the frontend.No backend(database) is involved in 
+static website and every user see same website.A static website displays same result to every user.
+Whereas a dynamic website do not have static or fixed data as it is usually attached to a database or external APIs
+from which data is fetched and changed based on users requirement.A dynamic website have backend as well as 
+frontend part .
 
 5. Steps you followed to connect github repo to your local repo.
+
+
+answer5:-
+
+Create a github repo. then create a folder which will serve as local repo. then shift+right click on the folder and open 
+'windows powershell'. then do following steps:
+
+step1: git init -->initialize the local repo
+step2:git add . --> stage all changes/new created files  
+step3:git commit -m "any relevant message"--> commit the staged changes locally
+step4:git remote add origin "repo link on gihub ssh/http"-->set the remote origin of repo to your github repo(link the github to local repo)
+
+now the repo is linked to github and you can push/pull changes into github like:
+
+git push --set-upstream remote master
+
+OR 
+git push.
+
