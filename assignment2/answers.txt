@@ -39,4 +39,5 @@ git revert Head
 5. write a simple program in javascript and run it using nodejs.
 
 console.log("this is script.js")
+node script.js
 this is assignment2 branch
