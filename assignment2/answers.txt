@@ -7,11 +7,36 @@ in terminal write following commands:
 git checkout -b assignment2
 
 onece the branch is created change something in it and commit it.
-
+and sync with github repo
 
 
 
 2. tell the difference between nodejs and javascript
+
+answer2:
+
+javascript is an object oriented programming language which is used with html and css to build 
+webpages and can only beused in browsers Whereas nodejs is a runtime environment which allows
+ a developer to run javascript in server side(local system outside browsers) also.
+
 3. install a package using npm use it(show screen shot of package.json)
+
+answer3:
+command -->
+npm install express
+
+screenshot is also in assignment2 folder.
+
 4. git command to reset a commit
+
+answer4: 
+
+commands-->
+
+git reset --hard Head
+git revert Head
+
 5. write a simple program in javascript and run it using nodejs.
+
+console.log("this is script.js")
+this is assignment2 branch
