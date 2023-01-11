@@ -1,0 +1,17 @@
+1. create a new branch in your git repo names as assignment2(paste the command)
+
+
+answer1:
+
+in terminal write following commands: 
+git checkout -b assignment2
+
+onece the branch is created change something in it and commit it.
+
+
+
+
+2. tell the difference between nodejs and javascript
+3. install a package using npm use it(show screen shot of package.json)
+4. git command to reset a commit
+5. write a simple program in javascript and run it using nodejs.
