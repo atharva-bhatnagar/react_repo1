@@ -10,3 +10,10 @@ console.log("msg2")
 const arr3=new Array()
 arr3[4]=64
 console.log(arr3)
+let arr=[1,22,3,2]
+console.log(arr)
+let obj={
+    name:'atharav',
+    rollno:30
+}
+console.log(obj)

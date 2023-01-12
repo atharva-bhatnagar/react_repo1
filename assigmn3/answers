@@ -1,0 +1,77 @@
+1. explaing the architecture of nodejs
+
+answer1:
+
+all the synchronous code will be sent to call stack and all the asynchronous code(which require some
+time to execute or some APIs to be called)will be sent to node APIs. then all the synchronous code
+in call stack will be executed. then asynchronous code is sent to call queue after its waiting tak is
+done and then it is sent to call stack and then asynchronous code is also executed.
+
+2. explain the feature of nodejs like non-blocking, synchronous, single threaded.
+
+answer2:
+
+non-blocking--> Non-Blocking means that javascript continues the execution of the synchronous programs
+instead of waiting for long I/O operations or any other asynchronous functions.
+
+synchronous--> programs are executed in sequence in javascript and hene it is called synchronous.
+
+single threaded--> this means that only one line of program is executed at a given time in javascript.
+
+3. create a array and object in javascript and print it.
+
+answer3:
+
+let arr=[1,22,3,2]
+console.log(arr)
+let obj={
+name:'atharav',
+rollno:30
+}
+console.log(obj)
+
+4. Nowadays how data is transferred between server and client?(explain about json)
+
+answer4:
+
+we use json (java script object notation) to send send data between client and server.
+for example a client enter his name age and address then this data will be sent to server
+to be stored as json objects for example-->{ name:"atharav",age:20,address:"c-7007 sec13 rajajipuram" }
+
+this is how data is transferred between server and client using json.
+
+5. write program to show how to append, pop and sort elements in array in javascript.
+
+answer5:
+
+let arr=new Array()
+
+arr.push(6)-->to append element
+arr.push(2)
+arr.push(1)
+arr.push(34)
+
+arr.pop()-->to pop element
+
+arr.sort()-->to sort elements in an array
+
+6. why should we use let in place of var in our javascript programs?
+
+answer6:
+
+when we use var to declare variables the variable sustains its value even after outside its scope
+of existance which may cause problems when we have a lot of variables to deal with. that is why we
+should use let instead of var because variable declared with let only exists in the scope in which
+it is declared.
+
+7. explain about all the primitive data types in javascript.
+
+answer7:
+
+primitive data types in javascript-->
+
+1. number --> it contains all numbers(integers,exponent as well as decimals)
+2. strings --> it contains all character sequences enclosed in qoutes.
+   3.boolean--> it caontains two values namely true and false
+   4.null--> it is a variable with null value meaning no value
+   5.undefined--> it is the value of a varible which is not initialized.
