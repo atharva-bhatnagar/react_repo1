@@ -7,3 +7,6 @@ setTimeout(()=>{
     console.log("msg4")
 },3000)
 console.log("msg2")
+const arr3=new Array()
+arr3[4]=64
+console.log(arr3)
