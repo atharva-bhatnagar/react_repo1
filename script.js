@@ -82,12 +82,18 @@ What is the least number of flagstones needed to pave the Square? It's allowed t
 The input contains three positive integer numbers in the first line: n,  m and a (1 ≤  n, m, a ≤ 10^9).
 
 Write the needed number of flagstones.
-INPUT=> 6 6 4*/ 
+INPUT=> 6 6 4
 
 let nn=6;
 let mm=6;
 let aa=4;
 console.log(Math.ceil((nn*mm)/(aa*aa)))
+
+
+
+*/ 
+
+
 
 
 /*You are given an array a of n integers. Count the number of pairs of indices (i,j) such that i<j and aj−ai=j−I.
@@ -100,3 +106,22 @@ The second line of each test case contains n integers a1,a2,…,an (1≤ai≤n) 
 
 It is guaranteed that the sum of n over all test cases does not exceed 2⋅10^5.*/
 
+//console.log("15"==15)
+
+/*var m=5
+while(true){
+    let n=9
+    if(m>n){
+        console.log(true);
+
+    }
+    else {
+        return false;
+    }
+}
+*/
+const numbers = [1, 2, 3, 4];
+const ans = numbers.reduce((result, item) => {
+  return result + item;
+}, 0);
+console.log(ans); 
